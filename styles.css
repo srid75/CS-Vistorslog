@@ -77,7 +77,7 @@ h1 {
     display: inline-block;
     margin: 10px 0;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #006747;
     color: white;
     border: none;
     border-radius: 5px;
@@ -92,11 +92,11 @@ h1 {
 }
 
 .option-btn:focus {
-    outline: 2px solid #0056b3;
+    outline: 2px solid #006747;
 }
 
 .option-btn:hover {
-    background-color: #218838;
+    background-color: #006747;
 }
 
 .image-content img {
