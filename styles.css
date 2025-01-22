@@ -1,95 +1,80 @@
-/* General Reset */
-* {
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-/* Header Styling */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #f4f4f4;
-    border-bottom: 2px solid #ccc;
 }
 
-header .logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
 }
 
-header .title {
-    font-size: 20px;
-}
-
-/* Main Content Styling */
-main {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
+/* Welcome section styling */
 .welcome-section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    width: 90%;
-    max-width: 1200px;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fafafa;
 }
 
 .text-content {
-    flex: 1;
-    margin-right: 20px;
+    max-width: 50%;
 }
 
-.text-content h1 {
+h1 {
     font-size: 36px;
-    color: #2d2d2d;
-    margin-bottom: 10px;
+    color: #333;
 }
 
-.text-content p {
+.intro {
+    font-size: 24px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.bold-text {
+    font-weight: bold;
     font-size: 18px;
-    margin-bottom: 20px;
+    color: #333;
 }
 
 .option-btn {
+    display: inline-block;
+    margin: 10px 5px;
     padding: 10px 20px;
-    font-size: 16px;
-    margin: 5px;
-    background-color: #5cb85c;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 .option-btn:hover {
-    background-color: #4cae4c;
+    background-color: #0056b3;
 }
 
+/* Image section */
 .image-content img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styling */
+/* Footer styling */
 footer {
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px;
     background-color: #f4f4f4;
-    border-top: 2px solid #ccc;
-    margin-top: 50px;
-}
-
-footer p {
-    font-size: 16px;
+    font-size: 14px;
 }
